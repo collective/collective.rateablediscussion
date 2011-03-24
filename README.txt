@@ -1,9 +1,9 @@
 Introduction
 ============
 
-This package provides the ability for users to rate comments in
-Plone. They can do this by clicking the arrows shown left of the comment author to
-vote either up or down.
+This package provides the ability for users to rate the comments in Plone. 
+They can do this by clicking the up or down arrows shown left of the comment
+author.
 
 
 Dependencies
