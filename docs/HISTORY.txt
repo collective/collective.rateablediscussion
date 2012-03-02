@@ -1,10 +1,10 @@
 Changelog
 =========
 
-0.1a2 (unreleased)
+0.1a2 (2012-03-02)
 ------------------
 
-- Nothing changed yet.
+- Fixed compatibility with plone.app.discussion 2.3.1 [jcbrand] 
 
 
 0.1a1 (2011-03-24)
