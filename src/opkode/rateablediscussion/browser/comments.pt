@@ -83,7 +83,7 @@
                             tal:attributes="
                                 id string:${tag_id}-uparrow;
                                 class python:member_vote == 'up' and 'comment_arrow_up_clicked' or 'comment_arrow_up';
-                                onclick string:upvoteComment('${reply/absolute_url}','${tag_id}')">&nbsp;</a>
+                                onclick string:upvoteComment('${reply/absolute_url}','${tag_id}')">like&nbsp;</a>
                         <a class="comment_arrow_up"
                             href="login_form"
                             tal:condition="anonymous">&nbsp;</a>
@@ -95,7 +95,7 @@
                             tal:condition="not: anonymous"
                             tal:attributes="id string:${tag_id}-downarrow;
                             class python:member_vote == 'down' and 'comment_arrow_down_clicked' or 'comment_arrow_down';
-                            onclick string:downvoteComment('${reply/absolute_url}','${tag_id}')">&nbsp;</a>
+                            onclick string:downvoteComment('${reply/absolute_url}','${tag_id}')">dislike&nbsp;</a>
                         </div>
                     </div>
                 </tal:get>
